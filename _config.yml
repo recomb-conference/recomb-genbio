@@ -113,7 +113,7 @@ venueFeatures: [""]
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "recombseq"
+twitterHashTag: "recomb-bioai"
 twitterFeed: " https://twitter.com/recomb-bioai"
 
 
