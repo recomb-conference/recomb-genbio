@@ -40,10 +40,10 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/team/", text: "Committees"}
  - {permalink: "/papers/", text: "Call for Contributions"}
- - {permalink: "/register/", text: "Register"}
- - {permalink: "/program/", text: "Program"}
  - {permalink: "/speakers/", text: "Keynote Speakers"}
+ - {permalink: "/program/", text: "Program"}
  - {permalink: "/venue/", text: "Venue"}
+ - {permalink: "/register/", text: "Register"}
 bottomNavigationLinks:
 # - {link: "https://bit.ly/dfua-c4p", text: "Submit a paper"}
 rightNavigationButtons:
