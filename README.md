@@ -13,14 +13,13 @@ This project is the website template and content used for RECOMB-BioAI, see the 
 * _data/team.yml: PC chairs and SC
 * _includes/about.html: home page with basic info
 * _includes/posters.html: plain html list of posters
-* _includes/schedule-tbd.html: plain html schedule (earlier used to post the list of accepted papers; NOTE: the file used for RECOMB-seq 2024 is _includes/schedule2024.html; this file name is specified in schedule.html)
-* CfP used by RECOMB-seq 2024 locates at _paper-calls/RECOMB-2024-CfP.md
+* _includes/schedule-tbd.html: plain html schedule (earlier used to post the list of accepted papers)
 
 Some of the unused files were moved to _unused folder; more can be moved as well.
 
 ### Software
 
-This site is based on [Project Zeppelin](https://github.com/gdg-x/zeppelin). Project Zeppelin is built on top of [Jekyll](http://jekyllrb.com/) - simple, blog-aware, static site generator. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your website from GitHub’s servers for free. [Learn more about Jekyll](http://jekyllrb.com/). Template is brought by [GDG Lviv](http://lviv.gdg.org.ua/) team.
+This site is based on [Project Zeppelin](https://github.com/gdg-x/zeppelin). Project Zeppelin is built on top of [Jekyll](http://jekyllrb.com/) - simple, blog-aware, static site generator. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your website from GitHub’s servers for free. [Learn more about Jekyll](http://jekyllrb.com/). Template is brought by [GDG Lviv](http://lviv.gdg.org.ua/) team. Forked from RECOMB-SEQ.
 
 ### Features
 * Easy to setup
