@@ -13,11 +13,11 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "RECOMB-BioAI Conference"
 email: "ezgiebren@gmail.com"
 description: "RECOMB-BioAI is the RECOMB Satellite Conference on AI for Biology and Biomedicine"
-baseurl: "https://recomb.org/recomb-BioAI/"
-url: "https://recomb.org/recomb-BioAI/"
+baseurl: "https://recomb.org/recomb-BioAI"
+url: "https://recomb.org/recomb-BioAI"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
-googleAnalyticsSiteUrl: "https://recomb.org/recomb-BioAI/"
+googleAnalyticsSiteUrl: "https://recomb.org/recomb-BioAI"
 siteVerification: ""
 
 # Organizer Info
