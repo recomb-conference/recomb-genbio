@@ -122,7 +122,7 @@ twitterFeed: " https://twitter.com/recomb-bioai"
 socialLinks:
  - {link: "https://twitter.com/recomb-bioai", icon: "twitter"}
 # - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
- - {link: "https://bsky.app/profile/recomb-bioai.bsky.social", icon: "bluesky"}
+ - {link: "https://bsky.app/profile/recomb-bioai.bsky.social", icon: "bsky"}
 # - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
