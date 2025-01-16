@@ -5,7 +5,7 @@ This project is the website template and content used for RECOMB-BioAI, see the 
 
 #### The main files to edit
 
-* _config.yml: some data such dates, location etc
+* _config.yml: some data such as dates, location etc
 * history.md: history page to be updated after the conference
 * history/  : folder with archived information for each year
 * _data/pc.yml: list of PC (perhaps it would be easier to do simply im html)
