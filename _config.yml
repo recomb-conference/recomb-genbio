@@ -10,27 +10,27 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "RECOMB-seq Conference"
-email: "calkan@gmail.com"
-description: "RECOMB-seq is the RECOMB Satellite Conference on Biological Sequence Analysis"
-baseurl: ""
-url: "https://recomb-seq.github.io"
+title: "RECOMB-BioAI Conference"
+email: "ezgiebren@gmail.com"
+description: "RECOMB-BioAI is the RECOMB Satellite Conference on AI for Biology and Biomedicine"
+baseurl: "https://recomb.org/recomb-BioAI/"
+url: "https://recomb.org/recomb-BioAI/"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
-googleAnalyticsSiteUrl: "recomb-seq.github.io"
+googleAnalyticsSiteUrl: "https://recomb.org/recomb-BioAI/"
 siteVerification: ""
 
 # Organizer Info
-organizerName: "RECOMB-seq"
-organizerAlternateName: "RECOMB-seq"
-organizerDescription: "Algorithm development for analyzing sequence data"
-organizerEmail: "calkan@gmail.com"
+organizerName: "RECOMB-BioAI"
+organizerAlternateName: "RECOMB-BioAI"
+organizerDescription: "AI for Biology and Biomedicine"
+organizerEmail: "ezgiebren@gmail.com"
 organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://www.alkanlab.org"
+organizerLink: "https://www.cs.cmu.edu/~zivbj/"
 
 # Head
-metaKeywords: "recomb, algorithm, sequence"
-twitterAccount: "@recombseq"
+metaKeywords: "recomb, AI, Biomedical"
+twitterAccount: "@recomb-bioai"
 # socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
@@ -38,11 +38,12 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/papers/", text: "Call for Contributions"}
  - {permalink: "/team/", text: "Committees"}
- - {permalink: "/speakers/", text: "Keynote Speakers"}
+ - {permalink: "/papers/", text: "Call for Contributions"}
+ - {permalink: "/register/", text: "Register"}
  - {permalink: "/program/", text: "Program"}
- - {permalink: "/history/", text: "History of RECOMB SEQ"}
+ - {permalink: "/speakers/", text: "Keynote Speakers"}
+ - {permalink: "/venue/", text: "Venue"}
 bottomNavigationLinks:
 # - {link: "https://bit.ly/dfua-c4p", text: "Submit a paper"}
 rightNavigationButtons:
@@ -50,20 +51,20 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "RECOMB-SEQ 2025"
-heroSubTitle: "The 15th RECOMB Satellite Conference on Biological Sequence Analysis"
-eventDate: "April 24-25, 2025"
-eventLocation: "Seoul, South Korea"
-#typeoutTextValues: '"2023"'
-#typeoutFallback: "2023"
+heroTitle: "RECOMB-BioAI 2025"
+heroSubTitle: "The 1st RECOMB Satellite Conference on AI for Biology and Biomedicine"
+eventDate: "October 27-29, 2025"
+eventLocation: "Boston, MA, USA"
+#typeoutTextValues: '"2025"'
+#typeoutFallback: "2025"
 heroButtons:
  #- {link: "https://bit.ly/dfua-c4p", text: "Submit a paper"}
- #- {permalink: "/#tickets", text: "Attend RECOMB SEQ 2023"}
+ #- {permalink: "/#tickets", text: "Attend RECOMB BioAI 2025"}
 
 # About Block
-aboutTitle: "About RECOMB SEQ"
+aboutTitle: "About RECOMB BioAI"
 # aboutBlock:
-# - {title: "RECOMB-SEQ", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
+# - {title: "RECOMB-BioAI", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
 # - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
 # - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
 
@@ -90,12 +91,12 @@ eventLocationName: "TBD"
 eventLocationLink: "TBD"
 eventStreetAddress: "TBD"
 eventAddressLocality: ""
-eventAddressLocalityRegion: "Seoul"
+eventAddressLocalityRegion: "Boston"
 eventPostalCode: ""
-eventAddressCountry: "South Korea"
-eventStartTime: "2025-04-24T08:00"
+eventAddressCountry: "USA"
+eventStartTime: "2025-10-27T08:00"
 eventDoorTime: "09:00"
-eventEndTime: "2025-04-25T18:00"
+eventEndTime: "2025-10-29T18:00"
 eventPlaceCoordinates: "37.5617613,126.9353254"
 mapCenterCoordinates: "37.5617613,126.9353254"
 mapMobileCenterCoordinates: "37.5617613,126.9353254"
@@ -113,15 +114,15 @@ venueFeatures: [""]
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
 twitterHashTag: "recombseq"
-twitterFeed: " https://twitter.com/recombseq"
+twitterFeed: " https://twitter.com/recomb-bioai"
 
 
 
 # Footer
 socialLinks:
- - {link: "https://twitter.com/recombseq", icon: "twitter"}
+ - {link: "https://twitter.com/recomb-bioai", icon: "twitter"}
 # - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
- - {link: "https://www.youtube.com/@recomb-seq", icon: "youtube"}
+ - {link: "https://www.youtube.com/@recomb-bioai", icon: "youtube"}
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
