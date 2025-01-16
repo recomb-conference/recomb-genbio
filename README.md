@@ -1,7 +1,7 @@
-# RECOMB-SEQ Website Template
+# RECOMB-BioAI Website Template
 
 ### About
-This project is the website template and content used for RECOMB-SEQ, see the live website at https://recomb-seq.github.io. 
+This project is the website template and content used for RECOMB-BioAI, see the live website at https://recomb.org/recomb-BioAI 
 
 #### The main files to edit
 
