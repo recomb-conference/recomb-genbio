@@ -12,7 +12,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: "RECOMB- GenBio Conference"
 email: "ezgiebren@gmail.com"
-description: "RECOMB- GenBio is the RECOMB Satellite Conference on Foundational and Generative Models for Biology and Health"
+description: "RECOMB-GenBio is the RECOMB Satellite Conference on Foundational and Generative Models for Biology and Health"
 baseurl: "https://recomb.org/recomb-genbio"
 url: "https://recomb.org/recomb-genbio"
 permalink: "/blog/:title"
@@ -52,7 +52,7 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "RECOMB-GenBio 2025"
-heroSubTitle: "The 1st RECOMB Satellite Conference on Foundational and Generative Models for Biology and Health"
+heroSubTitle: "  RECOMB Satellite Conference on Foundational and Generative Models   for Biology and Health"
 eventDate: "October 27-29, 2025"
 eventLocation: "Boston, MA, USA"
 #typeoutTextValues: '"2025"'
