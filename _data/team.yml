@@ -15,7 +15,7 @@
   name: "Bonnie"
   surname: "Berger"
   title: "Steering Committee Member"
-  thumbnailUrl: Bonnie.jpg
+  thumbnailUrl: Bonnie.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
