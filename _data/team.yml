@@ -1,84 +1,63 @@
 - 
   id: 0
-  name: "Can"
-  surname: "Alkan"
-  title: "Steering Committee Member"
-  thumbnailUrl: CanAlkan.jpg
+  name: "Ziv"
+  surname: "Bar-Joseph"
+  title: "Steering Committee Chair"
+  thumbnailUrl: Ziv.jpg
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "twitter", link: "https://twitter.com/calkan_cs"}
-    - {name: "github", link: "https://github.com/calkan"}
-    - {name: "site", link: "http://alkanlab.org/"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/ziv-bar-joseph-cmu/"}
+    - {name: "site", link: "https://www.cs.cmu.edu/~zivbj/"}
 - 
   id: 1
-  name: "Christina"
-  surname: "Boucher"
+  name: "Bonnie"
+  surname: "Berger"
   title: "Steering Committee Member"
-  thumbnailUrl: ChristinaBoucher.jpg
+  thumbnailUrl: Bonnie.jpg
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "github", link: "https://github.com/boucherufl"}
-    - {name: "site", link: "https://www.christinaboucher.com/"}
+    - {name: "twitter", link: "https://x.com/lab_berger"}
+    - {name: "site", link: "https://people.csail.mit.edu/bab/"}
 - 
   id: 2
-  name: "Paul"
-  surname: "Medvedev"
+  name: "Jian"
+  surname: "Peng"
   title: "Steering Committee Member"
-  thumbnailUrl: PaulMedvedev.jpg
+  thumbnailUrl: Peng.jpg
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "twitter", link: "https://twitter.com/pashadag"}
-    - {name: "github", link: "https://github.com/pashadag"}
-    - {name: "site", link: "https://medvedevgroup.com/"}
+    - {name: "twitter", link: "https://x.com/_jianpeng"}
+    - {name: "site", link: "https://jianpeng.web.engr.illinois.edu/"}
 - 
   id: 3
-  name: "Nadia"
-  surname: "Pisanti"
+  name: "Le"
+  surname: "Song"
   title: "Steering Committee Member"
-  thumbnailUrl: NadiaPisanti.jpg
+  thumbnailUrl: Song.jpg
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
-  social: 
-    - {name: "site", link: "https://pages.di.unipi.it/pisanti/"}
+  social:
+    - {name: "site", link: "https://dasongle.github.io/"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/le-song-03223813/"}
 
 - 
   id: 4
-  name: "Alex"
-  surname: "Schönhuth"
+  name: "Eric"
+  surname: "Xing"
   title: "Steering Committee Member"
-  thumbnailUrl: AlexSchonhuth.jpg
+  thumbnailUrl: Xing.jpg
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "site", link: "https://homepages.cwi.nl/~as/"}
-- 
-  id: 5
-  name: "Camille"
-  surname: "Marchet"
-  title: "Program Committee Chair"
-  thumbnailUrl: CamilleMarchet.jpg
-  subTeam: true
-  social: 
-    - {name: "twitter", link: "https://twitter.com/CamilleMrcht"}
-    - {name: "github", link: "https://github.com/kamimrcht"}
-    - {name: "site", link: "https://kamimrcht.github.io/webpage/"}
-- 
-  id: 6
-  name: "Yaron"
-  surname: "Orenstein"
-  title: "Program Committee Chair"
-  thumbnailUrl: YaronOrenstein.jpg
-  subTeam: true
-  social: 
-    - {name: "twitter", link: "https://twitter.com/OrensteinYaron"}
-    - {name: "github", link: "https://github.com/OrensteinLab"}
-    - {name: "site", link: "https://yorenstein.wixsite.com/orensteinlab"}
-
+    - {name: "twitter", link: "https://x.com/ericxing"}
+    - {name: "site", link: "https://mbzuai.ac.ae/study/faculty/professor-eric-xing/"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/eric-xing-b34a0b/"}
+    
