@@ -3,7 +3,7 @@
   name: "Ziv"
   surname: "Bar-Joseph"
   title: "Steering Committee Member"
-  thumbnailUrl: Ziv.jpg
+  thumbnailUrl: Ziv.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
@@ -15,7 +15,7 @@
   name: "Bonnie"
   surname: "Berger"
   title: "Steering Committee Member"
-  thumbnailUrl: Bonnie.png
+  thumbnailUrl: Bonnie.jpg
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
@@ -27,7 +27,7 @@
   name: "Jian"
   surname: "Peng"
   title: "Steering Committee Member"
-  thumbnailUrl: Peng.jpg
+  thumbnailUrl: Peng.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
@@ -52,7 +52,7 @@
   name: "Eric"
   surname: "Xing"
   title: "Steering Committee Member"
-  thumbnailUrl: Xing.jpg
+  thumbnailUrl: Xing.png
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
