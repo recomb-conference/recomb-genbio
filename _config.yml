@@ -23,13 +23,13 @@ siteVerification: ""
 # Organizer Info
 organizerName: "RECOMB-GenBio"
 organizerAlternateName: "RECOMB-GenBio"
-organizerDescription: "AI for Biology and Biomedicine"
+organizerDescription: "Foundational and Generative Models for Biology and Health"
 organizerEmail: "ezgiebren@gmail.com"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "https://www.cs.cmu.edu/~zivbj/"
 
 # Head
-metaKeywords: "recomb, AI, Biomedical"
+metaKeywords: "recomb, AI, Biology, Health"
 twitterAccount: "@recomb-GenBio"
 # socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
@@ -91,7 +91,7 @@ eventLocationName: "TBD"
 eventLocationLink: "TBD"
 eventStreetAddress: "TBD"
 eventAddressLocality: ""
-eventAddressLocalityRegion: "Boston"
+eventAddressLocalityRegion: "Boston, MA"
 eventPostalCode: ""
 eventAddressCountry: "USA"
 eventStartTime: "2025-10-27T08:00"
@@ -114,15 +114,15 @@ venueFeatures: [""]
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
 twitterHashTag: "recomb-GenBio"
-twitterFeed: " https://twitter.com/recomb-GenBio"
+twitterFeed: " https://twitter.com/recomb-genbio"
 
 
 
 # Footer
 socialLinks:
- - {link: "https://twitter.com/recomb-GenBio", icon: "twitter"}
+ - {link: "https://twitter.com/recomb-genbio", icon: "twitter"}
 # - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
- - {link: "https://bsky.app/profile/recomb-GenBio.bsky.social", icon: "bsky"}
+ - {link: "https://bsky.app/profile/recomb-genbio.bsky.social", icon: "bsky"}
 # - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
