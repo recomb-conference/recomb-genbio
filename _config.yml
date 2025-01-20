@@ -12,9 +12,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: "RECOMB- GenBio Conference"
 email: "ezgiebren@gmail.com"
-description: |
-"RECOMB-GenBio is the RECOMB Satellite Conference on Foundational and Generative Models"
-"for Biology and Health"
+description: "RECOMB-GenBio is the RECOMB Satellite Conference on Foundational and Generative Models for Biology and Health"
 baseurl: "https://recomb.org/recomb-genbio"
 url: "https://recomb.org/recomb-genbio"
 permalink: "/blog/:title"
