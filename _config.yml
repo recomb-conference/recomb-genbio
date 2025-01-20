@@ -21,6 +21,7 @@ permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
 googleAnalyticsSiteUrl: "https://recomb.org/recomb-genbio"
 siteVerification: ""
+timezone: Asia/Istanbul
 
 # Organizer Info
 organizerName: "RECOMB-GenBio"
