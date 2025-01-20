@@ -1,7 +1,7 @@
 # Plugins
 gems:
 - jekyll-sitemap
-safe: true
+safe: false
 
 # Build Settings
 markdown: kramdown
@@ -19,7 +19,6 @@ permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
 googleAnalyticsSiteUrl: "https://recomb.org/recomb-genbio"
 siteVerification: ""
-timezone: Asia/Istanbul
 
 # Organizer Info
 organizerName: "RECOMB-GenBio"
@@ -53,7 +52,7 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "RECOMB-GenBio 2025"
-heroSubTitle: "  RECOMB Satellite Conference on Foundational and Generative Models   for Biology and Health"
+heroSubTitle: "RECOMB Satellite Conference on Foundational and Generative Models for Biology and Health"
 eventDate: "October 27-29, 2025"
 eventLocation: "Boston, MA, USA"
 #typeoutTextValues: '"2025"'
