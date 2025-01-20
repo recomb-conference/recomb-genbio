@@ -1,7 +1,7 @@
-# RECOMB-BioAI Website Template
+# RECOMB-GenBio Website Template
 
 ### About
-This project is the website template and content used for RECOMB-BioAI, see the live website at https://recomb.org/recomb-BioAI 
+This project is the website template and content used for RECOMB-GenBio, see the live website at https://recomb.org/recomb-GenBio 
 
 #### The main files to edit
 
