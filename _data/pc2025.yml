@@ -57,3 +57,21 @@
   name: "Jian"
   surname: "Ma"
   company: "Carnegie Mellon University, USA"
+
+- 
+  id: pc11
+  name: "Sheng"
+  surname: "Wang"
+  company: "University of Washington, USA"
+
+- 
+  id: pc12
+  name: "Xiaowo"
+  surname: "Wang"
+  company: "Tsinghua University, China"
+
+- 
+  id: pc13
+  name: "Shyam"
+  surname: "Prabhakar"
+  company: "Genome Institute of Singapore, Singapore"
