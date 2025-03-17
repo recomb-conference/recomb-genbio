@@ -81,6 +81,12 @@
   name: "Fabian"
   surname: "Theis"
   company: "TU Munich, Germany"
+
+- 
+  id: pc14
+  name: "Jean-Philippe"
+  surname: "Vert"
+  company: "Centre for Computational Biology at Mines Paris, France; Bioptimus, France"
   
 - 
   id: pc15
