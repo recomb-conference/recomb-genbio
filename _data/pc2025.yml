@@ -2,7 +2,7 @@
   id: pc1
   name: "Ziv"
   surname: "Bar-Joseph"
-  company: "Carnegie Mellon University, USA"
+  company: "Carnegie Mellon University, USA; GenBio AI, USA"
 
 - 
   id: pc2
@@ -74,7 +74,7 @@
   id: pc13
   name: "Le"
   surname: "Song"
-  company: "Mohamed bin Zayed University of AI, Abu Dhabi, United Arab Emirates"
+  company: "Mohamed bin Zayed University of AI, Abu Dhabi, United Arab Emirates; GenBio AI, USA"
 
 - 
   id: pc14
@@ -104,4 +104,4 @@
   id: pc17
   name: "Eric"
   surname: "Xing"
-  company: "Mohamed bin Zayed University of AI, Abu Dhabi, United Arab Emirates"
+  company: "Mohamed bin Zayed University of AI, Abu Dhabi, United Arab Emirates; GenBio AI, USA"
