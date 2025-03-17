@@ -12,66 +12,90 @@
 
 - 
   id: pc3
-  name: "Jian"
-  surname: "Peng"
-  company: "University of Illinois at Urbana-Champaign, USA"
+  name: "Maria"
+  surname: "Brbic"
+  company: "EPFL, Switzerland"
 
 - 
   id: pc4
-  name: "Le"
-  surname: "Song"
-  company: "Mohamed bin Zayed University of AI, Abu Dhabi, United Arab Emirates"
+  name: "Charlotte"
+  surname: "Bunne"
+  company: "EPFL, Switzerland"
 
 - 
   id: pc5
-  name: "Eric"
-  surname: "Xing"
-  company: "Mohamed bin Zayed University of AI, Abu Dhabi, United Arab Emirates"
-  
+  name: "Hao"
+  surname: "Chen"
+  company: "UIC, USA"
+
 - 
   id: pc6
-  name: "Eran"
-  surname: "Segal"
-  company: "Weizmann Institute of Science, Israel"
+  name: "Jun"
+  surname: "Ding"
+  company: "McGill University, Canada"
 
 - 
   id: pc7
-  name: "Jean-Philippe"
-  surname: "Vert"
-  company: "Centre for Computational Biology at Mines Paris, France"
-
-- 
-  id: pc8
   name: "Anthony"
   surname: "Gitter"
   company: "University of Wisconsin–Madison, USA"
-
+   
 - 
-  id: pc9
-  name: "Hoifung"
-  surname: "Poon"
-  company: "Microsoft Research, USA"
-
-- 
-  id: pc10
+  id: pc8
   name: "Jian"
   surname: "Ma"
   company: "Carnegie Mellon University, USA"
 
 - 
+  id: pc9
+  name: "Jian"
+  surname: "Peng"
+  company: "University of Illinois at Urbana-Champaign, USA"
+  
+- 
+  id: pc10
+  name: "Hoifung"
+  surname: "Poon"
+  company: "Microsoft Research, USA"
+
+- 
   id: pc11
+  name: "Shyam"
+  surname: "Prabhakar"
+  company: "Genome Institute of Singapore, Singapore"
+
+- 
+  id: pc12
+  name: "Eran"
+  surname: "Segal"
+  company: "Weizmann Institute of Science, Israel"
+  
+- 
+  id: pc13
+  name: "Le"
+  surname: "Song"
+  company: "Mohamed bin Zayed University of AI, Abu Dhabi, United Arab Emirates"
+
+- 
+  id: pc14
+  name: "Fabian"
+  surname: "Theis"
+  company: "TU Munich, Germany"
+  
+- 
+  id: pc15
   name: "Sheng"
   surname: "Wang"
   company: "University of Washington, USA"
 
 - 
-  id: pc12
+  id: pc16
   name: "Xiaowo"
   surname: "Wang"
   company: "Tsinghua University, China"
 
 - 
-  id: pc13
-  name: "Shyam"
-  surname: "Prabhakar"
-  company: "Genome Institute of Singapore, Singapore"
+  id: pc17
+  name: "Eric"
+  surname: "Xing"
+  company: "Mohamed bin Zayed University of AI, Abu Dhabi, United Arab Emirates"
