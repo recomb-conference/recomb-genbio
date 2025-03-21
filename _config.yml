@@ -11,7 +11,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "RECOMB- GenBio Conference"
-email: "ezgiebren@gmail.com"
+email: "recomb.genbio@gmail.com"
 description: "RECOMB-GenBio is the RECOMB Satellite Conference on Generative Models for Biology and Health"
 baseurl: "https://recomb.org/recomb-genbio"
 url: "https://recomb.org/recomb-genbio"
@@ -23,8 +23,8 @@ siteVerification: ""
 # Organizer Info
 organizerName: "RECOMB-GenBio"
 organizerAlternateName: "RECOMB-GenBio"
-organizerDescription: "Foundational and Generative Models for Biology and Health"
-organizerEmail: "ezgiebren@gmail.com"
+organizerDescription: "Generative Models for Biology and Health"
+organizerEmail: "recomb.genbio@gmail.com"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "https://www.cs.cmu.edu/~zivbj/"
 
