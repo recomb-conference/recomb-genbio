@@ -30,7 +30,7 @@ organizerLink: "https://www.cs.cmu.edu/~zivbj/"
 
 # Head
 metaKeywords: "recomb, AI, Biology, Health"
-twitterAccount: "@recomb-GenBio"
+twitterAccount: "@RECOMBgenbio"
 # socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
@@ -52,7 +52,7 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "RECOMB-GenBio 2025"
-heroSubTitle: "RECOMB Satellite Conference on Foundational and Generative Models for Biology and Health"
+heroSubTitle: "RECOMB Satellite Conference on Generative Models for Biology and Health"
 eventDate: "October 27-29, 2025"
 eventLocation: "Boston, MA, USA"
 #typeoutTextValues: '"2025"'
@@ -113,14 +113,14 @@ venueFeatures: [""]
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "recomb-GenBio"
-twitterFeed: " https://twitter.com/recomb-genbio"
+twitterHashTag: "RECOMBgenbio"
+twitterFeed: " https://twitter.com/RECOMBgenbio"
 
 
 
 # Footer
 socialLinks:
- - {link: "https://twitter.com/recomb-genbio", icon: "twitter"}
+ - {link: "https://twitter.com/RECOMBgenbio", icon: "twitter"}
 # - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
  - {link: "https://bsky.app/profile/recomb-genbio.bsky.social", icon: "bsky"}
 # - {permalink: "/feed.xml", icon: "rss"}
