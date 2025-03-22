@@ -48,13 +48,27 @@
 				{% for social in site.socialLinks %}
 				<li>
 					<a href="{% if social.permalink != null %} {{ social.permalink | prepend: site.baseurl }} {% else %} {{ social.link }} {% endif %}" target="_blank">
-						<svg class="icon icon-{{ social.icon }}" viewBox="0 0 30 32">
+					<!--	<svg class="icon icon-{{ social.icon }}" viewBox="0 0 30 32">
 							<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social.icon }}"></use>
-						</svg>
+						</svg>  -->
+						
+						{% if social.icon == "twitter" %}
+				                <img src="{{ site.baseurl }}/img/sprites/twitter.png" alt="Twitter" class="social-icon">
+				            	{% elsif social.icon == "bluesky" %}
+				                <img src="{{ site.baseurl }}/img/sprites/bsky.png" alt="Bluesky" class="social-icon">
+				         <!--   {% elsif social.icon == "facebook" %}
+				                <img src="{{ site.baseurl }}/img/icons/facebook.png" alt="Facebook" class="social-icon">
+				            	{% elsif social.icon == "linkedin" %}
+				                <img src="{{ site.baseurl }}/img/icons/linkedin.png" alt="LinkedIn" class="social-icon">
+				            	{% else %}
+				                <img src="{{ site.baseurl }}/img/icons/default.png" alt="Social Icon" class="social-icon">  -->
+				            	{% endif %}
+						
+				            <span class="sr-only">{{ social.icon }}</span>
 					</a>
 				</li>
 				{% endfor %}
-			</ul>
+			</ul>			
 		</div>
 	</div>
 </footer>
