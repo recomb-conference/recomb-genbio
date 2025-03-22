@@ -125,11 +125,11 @@ socialLinks:
  - {link: "https://bsky.app/profile/recomb-genbio.bsky.social", icon: "bsky"}
 # - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
- -
-  title: "Links"
-  links:
+ #-
+  #title: "Links"
+  #links:
   # - {link: "https://recomb2022.net", text: "RECOMB 2022"}
- -
+ #-
   # title: "Contacts"
   # links:
   # - {link: "mailto:christinaboucher@ufl.edu", text: "christinaboucher@ufl.edu"}
@@ -140,9 +140,9 @@ footerBlocks:
    # - {permalink: "/cod/", text: "Code of Conduct"}
 
 # Blog
-blogTitle: "Latest news"
-blogCommentsEnabled: true
-discusShortName: "devfestua"
+#blogTitle: "Latest news"
+#blogCommentsEnabled: true
+#discusShortName: "devfestua"
 
 # Collections
 collections:
