@@ -134,7 +134,7 @@ footerBlocks:
   # links:
   # - {link: "mailto:christinaboucher@ufl.edu", text: "christinaboucher@ufl.edu"}
  -
-  title: "Policies"
+  title: "Links"
   links:
    - {permalink: "/coi/", text: "Conflict-of-interest Policy"}
    # - {permalink: "/cod/", text: "Code of Conduct"}
