@@ -38,13 +38,13 @@
 	</div>
 	<div class="row">
 		<!-- Please don't delete this line-->
-		<div class="col-md-10">
+		<div class="col-md-11">
 			<p class="copyright">
 				&copy; 2025 RECOMB-GenBio Steering Committee. Based on <a href="https://github.com/gdg-x/zeppelin" target="_blank">Project Zeppelin</a>. Designed and created by <a href="https://www.ruizlab.org/" target="_blank">Jaime Ruiz</a>
 			</p>
 		</div>
-		<div class="col-md-2 pull-right">
-			<ul class="social-links">
+		<div class="col-md-1">
+			<ul class="social-links pull-right">
 				{% for social in site.socialLinks %}
 				<li>
 					<a href="{% if social.permalink != null %} {{ social.permalink | prepend: site.baseurl }} {% else %} {{ social.link }} {% endif %}" target="_blank">
