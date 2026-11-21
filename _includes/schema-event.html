@@ -1,25 +1,27 @@
 <script type="application/ld+json">
+{% if site.baseurl contains '://' %}{% assign baseUrl = site.baseurl %}{% else %}{% assign baseUrl = site.baseurl | prepend: site.url %}{% endif %}
+{% assign eventImage = site.socialImageSrcGooglePlus | default: site.socialImageSrcFacebook | default: site.socialImageSrcTwitter %}
     [{
-        "@context" : "http://schema.org",
+        "@context" : "https://schema.org",
         "@type" : "Event",
-        "name" : "{{ site.title }}",
-        "description": "{{ site.description }}",
-        "image" : "{{ site.socialImageSrcGooglePlus | prepend: site.baseurl | prepend: site.url }}",
+        "name" : {{ site.title | jsonify }},
+        "description": {{ site.description | jsonify }},
+        {% if eventImage %}"image" : "{{ eventImage | prepend: baseUrl }}",{% endif %}
         "url" : "{{ site.url }}",
         "startDate" : "{{ site.eventStartTime }}",
         "doorTime" : "{{ site.eventDoorTime }}",
         "endDate" : "{{ site.eventEndTime }}",
         "location" : {
             "@type" : "Place",
-            "name" : "{{ site.eventLocationName }}",
+            "name" : {{ site.eventLocationName | jsonify }},
             "sameAs" : "{{ site.eventLocationLink }}",
             "address" : {
                 "@type" : "PostalAddress",
-                "streetAddress" : "{{ site.eventStreetAddress }}",
-                "addressLocality" : "{{ site.eventAddressLocality }}",
-                "addressRegion" : "{{ site.eventAddressLocalityRegion }}",
-                "postalCode" : "{{ site.eventPostalCode }}",
-                "addressCountry" : "{{ site.eventAddressCountry }}"
+                "streetAddress" : {{ site.eventStreetAddress | jsonify }},
+                "addressLocality" : {{ site.eventAddressLocality | jsonify }},
+                "addressRegion" : {{ site.eventAddressLocalityRegion | jsonify }},
+                "postalCode" : {{ site.eventPostalCode | jsonify }},
+                "addressCountry" : {{ site.eventAddressCountry | jsonify }}
             },
             "geo" : {
                 "@type" : "GeoCoordinates",
@@ -28,36 +30,38 @@
                 "longitude" : "{{ coordinates[1] }}"
             }
         },
-        // Not supported yet
-        // "organizer" : {
-        //     "@type" : "Organization",
-        //     "name" : "{{ site.organizerName }}",
-        //     "alternateName" : "{{ site.organizerAlternateName }}",
-        //     "description" : "{{ site.organizerDescription }}",
-        //     "logo" : "{{ site.organizerLogo | prepend: site.baseurl | prepend: site.url }}",
-        //     "email" : "{{ site.organizerEmail }}",
-        //     "sameAs" : "{{ site.organizerLink }}"
-        // },
+        {% if site.organizerName %}
+        "organizer" : {
+            "@type" : "Organization",
+            "name" : {{ site.organizerName | jsonify }},
+            "alternateName" : {{ site.organizerAlternateName | jsonify }},
+            "description" : {{ site.organizerDescription | jsonify }},
+            "logo" : "{{ site.organizerLogo | prepend: baseUrl }}",
+            "email" : "{{ site.organizerEmail }}",
+            "sameAs" : "{{ site.organizerLink }}"
+        },
+        {% endif %}
+        {% if site.hackathonTitle %}
         "subEvent" : {
             "@type" : "Event",
-            "name" : "{{ site.hackathonTitle }}",
-            "description": "{{ site.hackathonRows[0].details }}",
-            "image" : "{{ site.socialImageSrcGooglePlus | prepend: site.baseurl | prepend: site.url }}",
-            "url" : "{{ site.url | append: site.baseurl }}/hackathon/",
+            "name" : {{ site.hackathonTitle | jsonify }},
+            "description": {{ site.hackathonRows[0].details | jsonify }},
+            {% if eventImage %}"image" : "{{ eventImage | prepend: baseUrl }}",{% endif %}
+            "url" : "{{ baseUrl }}/hackathon/",
             "startDate" : "{{ site.hackathonStartTime }}",
             "doorTime" : "{{ site.hackathonDoorTime }}",
             "endDate" : "{{ site.hackathonEndTime }}",
             "location" : {
                 "@type" : "Place",
-                "name" : "{{ site.hackathonLocationName }}",
+                "name" : {{ site.hackathonLocationName | jsonify }},
                 "sameAs" : "{{ site.hackathonLocationLink }}",
                 "address" : {
                     "@type" : "PostalAddress",
-                    "streetAddress" : "{{ site.hackathonStreetAddress }}",
-                    "addressLocality" : "{{ site.hackathonAddressLocality }}",
-                    "addressRegion" : "{{ site.hackathonAddressLocalityRegion }}",
-                    "postalCode" : "{{ site.hackathonPostalCode }}",
-                    "addressCountry" : "{{ site.hackathonAddressCountry }}"
+                    "streetAddress" : {{ site.hackathonStreetAddress | jsonify }},
+                    "addressLocality" : {{ site.hackathonAddressLocality | jsonify }},
+                    "addressRegion" : {{ site.hackathonAddressLocalityRegion | jsonify }},
+                    "postalCode" : {{ site.hackathonPostalCode | jsonify }},
+                    "addressCountry" : {{ site.hackathonAddressCountry | jsonify }}
                 },
                 "geo" : {
                     "@type" : "GeoCoordinates",
@@ -67,35 +71,40 @@
                 }
             }
         },
+        {% endif %}
+        {% if site.ticketsOffers %}
         "offers" : [
         {% for ticketsOffer in site.ticketsOffers %}
         {
             "@type" : "Offer",
-            "name" : "{{ ticketsOffer.name }}",
+            "name" : {{ ticketsOffer.name | jsonify }},
             "url" : "{{ ticketsOffer.buyButtonLink }}",
             "price" : "{{ ticketsOffer.price }}",
             "priceCurrency" : "{{ ticketsOffer.priceCurrency }}",
             "validFrom" : "{{ ticketsOffer.validFrom }}",
             "validThrough" : "{{ ticketsOffer.validThrough }}"
-        }{% if forloop.index != forloop.length %},{% endif %}
-        {% endfor %} 
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
         ],
-        "performer" : [ 
+        {% endif %}
+        {% if site.data.speakers %}
+        "performer" : [
         {% for speaker in site.data.speakers %}
         {
             "@type" : "Person",
-            "name" : "{{ speaker.name }} {{ speaker.surname }}",
-            "image" : "{{ site.url | append: site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}",
-            "jobTitle" : "{{ speaker.title }}",
+            "name" : {{ speaker.name | append: ' ' | append: speaker.surname | jsonify }},
+            "image" : "{{ baseUrl | append: '/img/people/' | append: speaker.thumbnailUrl }}",
+            "jobTitle" : {{ speaker.title | jsonify }},
             "worksFor" : {
                 "@type" : "Organization",
-                "name" : "{{ speaker.company }}"
+                "name" : {{ speaker.company | jsonify }}
             },
             "sameAs" : "{{ speaker.social[0].link }}"
-        }{% if forloop.index != forloop.length %},{% endif %}
-        {% endfor %}  
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
         ],
-        "eventStatus" : "EventScheduled",
+        {% endif %}
+        "eventStatus" : "https://schema.org/EventScheduled",
         "typicalAgeRange" : "16+"
     }]
-    </script>
+</script>
